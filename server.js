@@ -18,5 +18,3 @@ function between(min, max) {
 }
 
 app.listen(3200, function () {
-  console.log('La aplicación esta corriendo en el puerto ' + this.address().port + ", dirección: " + this.address());
-});
